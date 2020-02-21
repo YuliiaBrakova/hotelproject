@@ -1,0 +1,121 @@
+*,
+*:before, *:after{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	color: black;
+	line-height: 30px;
+}
+
+.header{
+	padding: 10px 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 67px;
+	line-height: 18px;
+}
+
+.nav_link{
+	padding: 28px 0;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 35px;
+	color: black;
+	text-decoration: none;
+	transition: color .2s linear;
+}
+
+.nav_link:hover{
+	color: blue;
+}
+
+/*.slick div {
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	font-size: 100px;
+	height: 400px;
+	line-height: 400px;
+}
+
+.slick-prev {
+    left: 0;
+}
+.slick-prev:before, .slick-next:before {
+	content: "";
+}
+.slick-prev:after {
+	background-image: url("images/arrow left.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: "";
+	width: 28px;
+	height: 51px;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+.slick-next {
+    right: 0;
+}
+.slick-next:after {
+	background-image: url("images/arrow right.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: "";
+	width: 28px;
+	height: 51px;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+.slick-prev, .slick-next {
+	z-index: 10;
+	width: 28px;
+	height: 51px;
+}
+ 
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+	padding: 5px;
+}
+.slick-dots li button {
+	width: 10px;
+  	height: 10px;
+  	padding: 0;
+	border: 1px solid #fff;
+	list-style: square;
+}
+.slick-dots li.slick-active button {
+	background-color: #fff;
+}
+.slick-dots li button:before {
+	content: none;
+}
+*/
