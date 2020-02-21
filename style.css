@@ -23,6 +23,12 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+.col-md-4{
+	width: 33.333%;
+}
+.col-md-12{
+	width: 100%;
+}
 
 .logo {
 	height: 67px;
@@ -123,7 +129,7 @@ body{
 	content: none;
 }
 */
-.search {
+.booking_bar {
 	width: 100%;
 	height: 115px;
 	display: inline-block;
@@ -131,23 +137,23 @@ body{
 	border-bottom: 15px solid #4e26fd;
 }
 
-.search form{
+.booking_bar form{
 	margin: 32px 34px;
 }
 
-.search input{
+.booking_bar input{
 	width: 215px;
 	height: 52px;
 	padding-left: 18px;
 	outline: none;
 }
 
-.search input::placeholder{
+.booking_bar input::placeholder{
 	color: black;
  	font-size: 17px;
 }
 
-.btn-primary{
+.btn_booking_bar{
 	width: 215px;
 	height: 52px;
 	text-align: center;
@@ -158,6 +164,35 @@ body{
 	outline: none;
 }
 
+h1{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.hotel_list{
+	height: 370px;
+	width: 355px;
+	display: block;
+	margin-top: 45px;
+	justify-content: space-between;
+	border: 1px solid white;
+	color: black;	
+}
+
+h2{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: thin;
+}
 
 
 
