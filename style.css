@@ -22,6 +22,10 @@ body{
 .row{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.col-md-2{
+	width: 20%;
 }
 .col-md-4{
 	width: 33.333%;
@@ -193,6 +197,49 @@ p{
 	font-size: 14px;
 	font-weight: thin;
 }
+.btn_hotel{
+	margin-top: 25px;
+	text-align: center;
+}
+.btn_hotel_list{
+	
+	width: 175px;
+	height: 50px;
+	border: 1px solid #4e26fd;
+	text-align: center;
+	background-color: white;
+	font-size: 20px;
+	color: #4e26fd;
+}
 
+.activities{
+	margin-top: 35px;	
+	width: 100%;
+}
+
+.activities_list{
+	margin-top: 30px;
+}
+.activities_img{
+	position: relative;
+	display: block;
+}
+ .text{
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+	color: white;
+	font-size: 16px;
+	text-align: left;
+	line-height: 1;
+}
+h3{
+	position: absolute;
+	bottom: 160px;
+	color: white;
+	right: 40%;
+	font-size: 50px;
+	font-weight: bold;
+}
 
 
