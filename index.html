@@ -6,20 +6,24 @@
 
 	<link rel="stylesheet" href="reset.css">
 
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap&subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 	
 <header class="header">
 	<div class="container">
 		<div class="row">
-			
-				<div class="log">
-					<a href="#"><img src="images/logo.png" alt=""></a>
+			<div class="col-md-2">
+				<div class="logo_hotel">
+					<a href="index.html"><img src="images/logo.png" alt="logo"></a>
 				</div>
-			
-			
+			</div>
+			<div class="col-md-10">
 				<div class="nav">
 					<a href="" class="nav_link">HOME</a>
 					<a href="" class="nav_link">ABOUT US</a>
@@ -28,20 +32,20 @@
 					<a href="" class="nav_link">BLOG</a>
 					<a href="" class="nav_link">CONTACT</a>
 				</div>
-			
-		</div>
-	</div>	
-</header>
-<div class="slider-block">
-	<div class="container">
-		<div class="slick">
-		  <div>Slide #1</div>
-		  <div>Slide #2</div>
-		  <div>Slide #3</div>
-		  <div>Slide #4</div>
+			</div>
 		</div>
 	</div>
-</div>	
+
+</header>
+
+<div class="row">
+	<div class="slick">
+		<div><img src="images/bg_1.jpg" alt=""></div>
+		<div><img src="images/bg_2.jpg" alt=""></div>
+		<div><img src="images/bg_3.jpg" alt=""></div>
+		<div><img src="images/bg_2.jpg" alt=""></div>
+	</div>
+</div>
 
 <main class="main">
 	<div class="container">
@@ -61,8 +65,7 @@
 			<div class="col-md-12">
 				<h1>AWARD WINNING Hotels</h1>
 			</div>
-		</div>
-
+		</div>	
 		<div class="row">
 			<div class="col-md-4">
 				<div class="hotel_list">
@@ -98,7 +101,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-md-4">
 				<div class="hotel_list">
@@ -141,67 +143,163 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="activities">
 		<div class="activities_list row">
 			<div class="col-md-12">
 				<h1>Winter activities</h1>
 			</div>
 		</div>
-		
-		<div class="activities_list row">
-			<div class="col-md-2">
-				<div class="activities_img">
-					<img src="images/list(1).png" alt="">
-					<h3>Skiing</h3>
-					<p class="text">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
-				</div>
-				
+	</div>
+		<div class="flex_activities">
+			<div class="item_activities activities_img">
+				<img src="images/list(1).png" alt="">
+				<h3>Skiing</h3>
+				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
 			</div>
-			<div class="col-md-2">
-				<div class="activities_img">
-					<img src="images/list(2).png" alt="">
-					<h3>Boarding</h3>
-					<p class="text">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
-				</div>
-			
+			<div class="item_activities activities_img">
+				<img src="images/list(2).png" alt="">
+				<h3>Boarding</h3>
+				<p >We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
 			</div>
-			<div class="col-md-2">
-				<div class="activities_img">
-					<img src="images/list(3).png" alt="">
-					<h3>Cycling</h3>
-					<p class="text">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
-				</div>
-			
+			<div class="item_activities activities_img">
+				<img src="images/list(3).png" alt="">
+				<h3>Cycling</h3>
+				<p >We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
 			</div>
-			<div class="col-md-2">
-				<div class="activities_img">
-					<img src="images/list(4).png" alt="">
-					<h3>Hiking</h3>
-					<p class="text">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
-				</div>
-				
+			<div class="item_activities activities_img">
+				<img src="images/list(4).png" alt="">
+				<h3>Hiking</h3>
+				<p >We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
 			</div>
-			<div class="col-md-2">
-				<div class="activities_img">
-					<img src="images/list(5).png" alt="">
-					<h3>Trekking</h3>
-					<p class="text">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+			<div class="item_activities activities_img">
+				<img src="images/list(5).png" alt="">
+				<h3>Trekking</h3>
+				<p >We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+			</div>
+		</div>
+	<div class="container">
+		<div class="room_views row">
+				<h1>DELUXE ROOMS WITH A BEAUTIFUL VIEW</h1>
+		</div>
+		<div class="flex">
+			<div class="sideitem">
+				<div class="item">
+					<img src="images/room(1).png" alt="">
+					<h4>Magna pars studiorum</h4>
+					<p class="text_room">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="item">
+					<img src="images/room(2).png" alt="">
+					<h4>Magna pars studiorum</h4>
+					<p class="text_room">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class="mainitem">
+					<img src="images/room(3).png" alt="">
+			</div>
+			<div class="sideitem">
+				<div class="item">
+					<img src="images/room(4).png" alt="">
+					<h4>Magna pars studiorum</h4>
+					<p class="text_room">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="item">
+					<img src="images/room(5).png" alt="">
+					<h4>Magna pars studiorum</h4>
+					<p class="text_room">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 			</div>
 		</div>
-
-	</div>	
+		<div class="row">
+			<div class="col-md-12">
+				<h1>News From Us</h1>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-4">
+				<div class="news_list">
+					<div class="news_list_img">
+						<img src="images/news(1).png" alt="">
+					</div>
+					<div class="news_list_description">
+						<h2>Middle of downtown</h2>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="news_list">
+					<div class="news_list_img">
+						<img src="images/news(2).png" alt="">
+					</div>
+					<div class="news_list_description">
+						<h2>Great Environment</h2>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="news_list">
+					<div class="news_list_img">
+						<img src="images/news(3).png" alt="">
+					</div>
+					<div class="news_list_description">
+						<h2>Free Breakfast</h2>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </main>
 
-<footer>
+<footer class="footer">
 	<div class="container">
 		<div class="row">
-			header
+			<div class="col-md-5">
+				<div class="logo_footer">
+					<a href="index.html"><img src="images/footer.png" alt="logo"></a>
+				</div>
+				<div class="location"><img src="images/footer(1).png">123, Main Street, NY 456789</div>
+				<div class="phone"><img src="images/footer(2).png">+12 345 67890</div>
+				<div class="mail"><img src="images/footer(3).png">free@psd.in.ua</div>
+				
+			</div>
+			<div class="col-md-6">
+				<div class="footer_menu">
+					<ul>
+						<li><a href="" class="footer_menu_link">HOME</a></li>
+						<li><a href="" class="footer_menu_link">ABOUT US</a></li>
+						<li><a href="" class="footer_menu_link">ROOMS</a></li>
+						<li><a href="" class="footer_menu_link">PORTFOLIO</a></li>
+						<li><a href="" class="footer_menu_link">BLOG</a></li>
+						<li><a href="" class="footer_menu_link">BLOG</a></li>
+						<li><a href="" class="footer_menu_link">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-5 social">
+				<h4>We are in social networks</h4>
+				<div class="social_menu">
+					<ul>
+						<li><a href="" class="social_facebook"></a></li>
+						<li><a href="" class="social_wk"></a></li>
+						<li><a href="" class="social_insta"></a></li>
+						<li><a href="" class="social_youtube"></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</div>	
+		<div class="row">
+			<div class="col-md-12 copy"> Copyright 2018. PSD.IN.UA  All Right Reserved </div>
+		</div>
+	</div>
 </footer>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>	
+
+<script src="app.js"></script>
 
 </body>
 </html>
