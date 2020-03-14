@@ -31,6 +31,10 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
+.row a{
+	text-decoration: none;
+	color: black;
+}
 .col-md-2{
 	width: 20%;
 }
@@ -87,15 +91,7 @@ body{
 .nav_link:hover{
 	color: blue;
 }
-/*.slick-prev {
-    left: 0;
-}
-.slick-next {
-    right: 0;
-}
-.slick-prev:before,.slick-next:before {
-	content: "";
-}*/
+
 .slick{
 	width: 100%;
 }
@@ -156,6 +152,7 @@ body{
 .booking_bar input::placeholder{
 	color: black;
  	font-size: 17px;
+
 }
 
 .btn_booking_bar{
@@ -174,7 +171,9 @@ body{
 	font-size: 55px;
 	font-weight: bold;
 	letter-spacing: 5px;
+
 }
+
 .hotel_list{
 	height: 340px;
 	width: 355px;
@@ -184,6 +183,10 @@ body{
 	border: 1px solid white;
 	color: black;
 	margin-bottom: 20px;	
+}
+.hotel_list a{
+	text-decoration: none;
+	color: black;
 }
 .news_list{
 	display: block;
@@ -246,6 +249,10 @@ justify-content: space-around;
 	position: relative;
 	display: block;
 }
+.activities_list a{
+	text-decoration: none;
+	color: black;
+}
 
 .item_activities:hover {
  	flex: 0.1 0.1 300px;
@@ -281,14 +288,17 @@ justify-content: space-around;
 .flex{
 	display: flex;
 	font-size: 400%;
+	margin: 20px;
+
 }
 
 .mainitem, .item{
 	flex-grow:1; 
 	display: flex; 
 	justify-content: center; 
-	align-items: center; 
-	position: relative;
+	align-items: center;
+	display: block; 
+
 }
 
 .mainitem{
@@ -304,27 +314,33 @@ justify-content: space-around;
 	flex-direction: column;
 	margin-right: 15px;
 	margin-left:15px;
+	display: block;
 }
 
 .item{
 	flex-basis:50%;
 	min-height:150px;
+
 	
+}
+.item a{
+	text-decoration: none;
+	color: black;
 }
 .item:first-child{ margin-bottom:20px; }
 .item h4{
 	text-align: center;
 	font-size: 14px;
 	font-weight: bold;
-	position: absolute;
-	top: 220px;
+	margin-top: 8px;
+
 }
 .text_room{
 	font-size: 12px;
 	font-weight: thin;
 	line-height: 1;
-	position: absolute;
-	top: 250px;
+	margin-top: 10px;
+	
 }
 .logo_footer{
 	margin-top: 30px;
